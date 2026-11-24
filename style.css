@@ -1,40 +1,83 @@
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 20px;
+.conteudo{
+    margin: 25px;
+    padding: 7px;
 }
 
-header {
-    border-bottom: 1px solid #aaa;
-    padding: 10px;
-}
-
-h1 {
-    font-family: Georgia, serif;
-    font-weight: normal;
-}
-
-main {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-}
-
-a {
-    color: #0645ad;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+p {
+  font-size: 1.2rem; 
 }
 
 footer {
-    border-top: 1px solid #aaa;
-    margin-top: 30px;
-    padding: 10px;
-    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+}
+
+footer .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h2, h3, h4, h5{
+    font-size: 1.5rem;
+}
+
+#Gostos{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.texto{
+    flex: 1;
+}
+
+#Objetivos {
+    display: block;
+}
+
+.objetivos {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.ImagemFuturo {
+    flex: 1;
+}
+
+.ImagemFuturo img {
+    width: 100%;
+}
+
+.texto2 {
+    flex: 2;
+}
+
+.OutrosLinks {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.linksInternos{
+    display: flex;
+    font-size: 25px;
+    gap: 20px;
+}
+
+
+.video iframe{
+     width: 800px;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
 }
