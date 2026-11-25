@@ -211,3 +211,34 @@ body{
         max-width: 100%;
     }
 }
+
+
+.conteudo img {
+    transition: transform 0.3s ease;
+}
+
+.conteudo img:hover {
+    transform: scale(1.03);
+}
+
+
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0f766e;
+}
+
+
+
+#botaoTema {
+    transition: 0.3s ease;
+}
+
+#botaoTema:hover {
+    transform: translateY(-2px);
+    background-color: #2dd4bf;
+    box-shadow: 0 5px 12px rgba(45, 212, 191, 0.3);
+}
