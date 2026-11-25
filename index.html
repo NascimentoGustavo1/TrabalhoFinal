@@ -15,29 +15,33 @@
         <h1>Portifólio Pessoal</h1>
         <p><strong>Bem-vindo</strong></p>  
 
-        <p><strong>seções</strong></p>
+        <p><strong>SEÇÕES</strong></p>
 
 
-     <nav class="linksInternos">
-        <a href="#Ola">Olá</a>
-        <a href="#Gostos">Gostos</a>
-        <a href="#Objetivos">Objetivos</a>
-
-    </nav>
+    <div class="menu">
+        <nav class="linksInternos">
+        
+            <a href="#Ola">Olá</a>
+            <a href="#Gostos">Gostos</a>
+            <a href="#Objetivos">Objetivos</a>
+        </nav>
+        <button id="botaoTema">
+                Alterar tema
+            </button>
+    </div>
+    
        
     </header>
 
     <main>
         <section id="Ola" class="conteudo">
 
-            <button id="botaoTema">
-                Alterar tema
-            </button>
+            
             <h2>Sobre mim</h2>
             <p>Nessa seção buscarei falar um pouco sobre mim</p>
 
             <h3>Prazer</h3>
-            <p>Meu nome é (Nome), tenho 19 anos e atualmente cursando Engenharia de Software pela Unifil</p>
+            <p>Meu nome é Gustavo, tenho 19 anos e atualmente cursando Engenharia de Software pela Unifil</p>
             <p>Sempre fui uma pessoa que gosta de resolução de problemas, encontrando muito disso na programação.</p>
             <p>Fator determinante para a escolha da área que estou cursando atualmente</p>
             <div class="ImagemEu">
@@ -56,16 +60,25 @@
             </div>
 
             <div class="video">
-                <iframe 
-                    src="https://www.youtube.com/embed/2WrI996a5HE"
-                    title="Vídeo do Tame Impala"
-                    allowfullscreen>
-                </iframe>
+                <video width="640" height="360" controls>
+                    <source src="TonySopranoCrashingOut.mp4" type="video/mp4" />
+                    <source src="video.webm" type="video/webm" />
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
+
+                <p class="legenda">
+                    Sopranos - Série muito boa
+                </p>
             </div>
             
         </section>
         
         <section id="Objetivos" class="conteudo">
+
+            <div class="ImagemFuturo">
+                <img src="GreeTech.jpeg" alt="Primeiro Hachton que participei">
+            </div>
+
             <div class="texto2">
             <h5 >Metas e Objetivos</h5>
             <ul>
@@ -84,19 +97,20 @@
             </ul>
             </div>
 
-            <div class="ImagemFuturo">
-                
-            </div>
+            
 
-            <div class="OutrosLinks">
-    <p><strong>Conheça também:</strong></p>
-
-    <div class="navegacao">
-        <a href="index2.html">Formação</a>
-        <a href="index3.html">Valores</a>
-    </div>
-</div>
+            
         </section>
+
+        <div class="OutrosLinks">
+            <p><strong>Conheça também:</strong></p>
+
+            <div class="navegacao">
+                <a href="index2.html">Formação</a>
+                <a href="index3.html">Valores</a>
+            </div>
+        </div>
+
     </main>
 
     <footer>
